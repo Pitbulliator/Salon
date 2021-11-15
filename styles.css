@@ -12,8 +12,8 @@ header { background-image: url(header.jpg);
 }
 
 .navbar { text-decoration: none;
-		  text-transform: uppercase;
-		  font-style: none;
+		  text-transform: lowercase;
+		  font-style: Arial;
 		  margin-left: 70px;
 		  padding-top: 23px;
 		   }
@@ -50,8 +50,10 @@ nav ul { padding-left: 0;
          display: flex; 
 	     flex-direction: row; 
 	     flex-wrap: wrap; 
-	     justify-content: space-around; }	  
+	     justify-content: space-around; }
+		 
 nav ul { list-style-type: none; }
+
 nav li { width: 20%;
 		 min-width: 8em;
 	     font-size: 110%;
