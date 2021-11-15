@@ -11,6 +11,13 @@ header { background-image: url(header.jpg);
 		 background-size: cover;
 }
 
+.navbar { text-decoration: none;
+		  text-transform: uppercase;
+		  font-style: none;
+		  margin-left: 70px;
+		  padding-top: 23px;
+		   }
+
 /* Name Grid Areas */
 header { grid-area: h; }
 nav    { grid-area: n; }
