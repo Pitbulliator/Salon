@@ -86,16 +86,17 @@ nav li { width: 90%;
 		 padding: 0; }
 		 
  nav ul ul { position: absolute;
-			background-color: #5564A0;
+			background-color: #black;
 			padding: 0;
 			text-align: left;
 			display: none;
 }
 nav li:hover ul { display: block; }
 
-nav ul ul li { border: 1px solid #00005D;
+nav ul ul li { 
 			   display: block;
 			   width: 8em;
+			   padding: .5em;
 			   padding-left: 1em;
 			   margin-left: 0;
 }
