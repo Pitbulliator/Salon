@@ -77,12 +77,12 @@ nav ul { padding-left: 0;
 		 
 nav ul { list-style-type: none; }
 
-nav li { width: 20%;
+nav li { width: 90%;
 		 min-width: 8em;
-	     font-size: 110%;
+	     font-size: 100%;
 		 text-align: center;
-		 margin: .5em;
-		 padding: .5em; }
+		 margin: 0;
+		 padding: 0; }
 		 
  nav ul ul { position: absolute;
 			background-color: #5564A0;
@@ -128,15 +128,16 @@ form { color: #d68bb7; }
 		  nav ul { display: flex; 
 	           flex-direction: row ; 
 	           flex-wrap: nowrap;
+			   
 				}
           #wrapper { grid-template: 
 		             " h   h   h"
-					 " n   m   a"
+					 " n   n   n"
 					 " m   m   a"
 					 " f   f   f" 
-			        / 20% 40% 40%; }
+			        / 40% 20% 20%; }
 aside { display: block; }
-
+}
         
 
 
