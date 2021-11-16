@@ -57,9 +57,10 @@ footer { grid-area: f; }
 
 h2 { color: #d68bb7; }
 
+h3 { color: #d08bd6; }
 
 h1 { text-align: center;
-     color: #d68bb7;
+     color: #d08bd6;
 	 font-size: 300%;
      text-shadow: 10px 10px 10px #000000;
 }
@@ -114,6 +115,7 @@ footer { text-align: center;
 		 display: block;
 		 font-style: italic;
 		 padding: 1em; 
+		 font-size: 12px;
 		 }
 form { color: #d68bb7; }		 
 @media (min-width: 38em) {
