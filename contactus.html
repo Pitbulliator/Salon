@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,19 +26,55 @@ rel="stylesheet">
 	</ul> 
    </nav>
     <main>   
-	<h2>Caption</h2>
-    <p>Text</p>
-    <h2>Caption 2</h2>
-    <p>Text 2</p>
-  	<h2>Caption 3</h2>
-    <p>Text 3</p>
-	
+	<form method="post" action="https://webdevbasics.net/scripts/yoga.php">
+<fieldset><Legend>Name</legend>
+<label for="salutations">Salutations:</label>
+<select name="salutations" id="salutations" tabindex="1" accesskey="S" required>
+  <option value="Mr.">Mr.</option>
+  <option value="Mrs.">Mrs.</option>
+  <option value="Miss">Miss</option>
+</select> <br>
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname" tabindex="1" accesskey="F" placeholder="Please type your fist name" required><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname" tabindex="2" accesskey="L" placeholder="Please type your last name" required>
+</fieldset><br>
+<fieldset><Legend>Information</legend>
+<label for="myEmail">E-mail Address:</label>
+<input type="text" name="myEmail" id="myEmail" tabindex="3" accesskey="E" placeholder="Please type your email address" required><br>
+<label for="phonenumber">Phone Number:</label>
+<input type="text" name="phonenumber" id="phonenumber" tabindex="4" accesskey="P" placeholder="Please type your phone number" required><br>
+</fieldset><br>
+<fieldset><Legend>Address</legend>
+<label for="number">Number:</label>
+<input type="text" name="number" id="number" tabindex="5" accesskey="N" placeholder="Please type your house number" required><br>
+<label for="streetname">Street Name:</label>
+<input type="text" name="streetname" id="streetname" tabindex="6" accesskey="S" placeholder="Please type your street name" required><br>
+<label for="aptnumber">Apartment #:</label>
+<input type="text" name="aptnumber" id="aptnumber" tabindex="7" accesskey="A" placeholder="Please type your apartment number" required><br>
+<label for="zip">Zip Code:</label>
+<input type="text" name="zipcode" id="zipcode" tabindex="8" accesskey="Z" placeholder="Please type your zipcode" required><br>
+</fieldset><br>
+<fieldset><Legend>Additional Information</legend>
+<label for="choice">Do you want to recieve an email from us?</label>
+<input type="checkbox" name="choice" id="choice"><br>
+<label for="myRefer">How did you hear about us?</label>
+<input type="text" name="myRefer" id="myRefer" list="referral" tabindex="9" accesskey="H" placeholder="Please say how you heard about us" required><br>
+ <datalist id="referral"><br>
+    <option value="Google" label="Google">
+	<option value="Bing" label="Bing">
+	<option value="Facebook" label="Facebook">
+	<option value="Friend" label="Friend">
+	<option value="Radio Ad" label="Radio Ad">
+ </datalist>
+ <label for="subject">Subject</label>
+<input type="text" name="subject" id="subject" tabindex="10" accesskey="T" placeholder="What is the subject of your commment?" required><br>
+<label for="myComments">Comments:</label>
+<br>
+<textarea name="myComments" id="myComments" rows="2" cols="20" tabindex="11" accesskey="C" placeholder="Do you have anything to say?" required></textarea><br>
+<input id="mySubmit" type="submit" value="Send Now">
+</form>
    </main> 
-      <aside>
-     <img src="" alt="">
-	 <h2>Aside</h2>
-	 <p>Text</p>
-   </aside>
    <footer>
    <div class="navbar">
    <nav>
