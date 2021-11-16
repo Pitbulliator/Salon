@@ -105,7 +105,9 @@ nav a:link { color: #d68bb7; }
 nav a:visited { color: #8bd0d6; }
 nav a:hover { color: #FFFFFF; }
 
-aside {  display: none;  padding: 1em;}
+aside {  
+         display: none;  
+         padding: 1em;}
 
 main {   padding: 0 1em 1em;   
          	 }
@@ -139,7 +141,9 @@ form { color: #d68bb7; }
 					 " m   m   a"
 					 " f   f   f" 
 			        / 40% 20% 20%; }
-aside { display: block; }
+aside { display: block; 
+        text-align: center;
+        color: 	#d08bd6;	}
 }
         
 
