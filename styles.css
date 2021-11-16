@@ -1,7 +1,6 @@
-img { max-width: 100%;
-      height: auto; }
-	  
+
 html {  background: url(salonlady.jpg) no-repeat center center fixed;
+        
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -11,7 +10,9 @@ p { color: #ffffff; }
 
 * { box-sizing: border-box; }
 body {font-family: Verdana, Arial, sans-serif;
-      margin: 0;
+      display: block;
+      margin: auto;
+	  width: 90%;
 }
 
 header { background-image: url(header.jpg);
@@ -46,13 +47,18 @@ h1 { text-align: center;
 nav {   font-size: 125%;
         flex-direction: row;
         display: flex;
-		justify-content: space-evenly; }
+		justify-content: space-evenly;
+        margin: auto;
+       	
+        	}
 
 nav ul { padding-left: 0;
          display: flex; 
+		 margin: 0;
 	     flex-direction: row; 
-	     flex-wrap: wrap; 
-	     justify-content: space-evenly; }
+	     flex-wrap: nowrap; 
+	     justify-content: space-evenly;
+		 }
 		 
 nav ul { list-style-type: none; }
 
@@ -91,7 +97,10 @@ form { color: #d68bb7; }
 @media (min-width: 65em) {
 		  nav ul { display: flex; 
 	           flex-direction: row ; 
-	           flex-wrap: nowrap;
+			   flex-wrap: nowrap;
+
+	          
+			   
 				}
           #wrapper { grid-template: 
 		             " h   h   h"
