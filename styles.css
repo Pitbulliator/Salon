@@ -42,9 +42,9 @@ div.desc {
 .navbar { text-decoration: none;
 		  text-transform: lowercase;
 		  font-style: Arial;
-		  margin-left: 70px;
-		  padding-top: 23px;
-		   }
+		  font-size: 12px;
+          margin: 0;
+          padding: 0; }
 
 /* Name Grid Areas */
 header { grid-area: h; }
@@ -110,7 +110,8 @@ main {   padding: 0 1em 1em;
          	 }
 
 footer { text-align: center;
-		 display: flex;
+         color: white;
+		 display: block;
 		 font-style: italic;
 		 padding: 1em; 
 		 }
@@ -140,4 +141,4 @@ aside { display: block; }
 }
         
 
-
+#gallery { text-align: center; }
